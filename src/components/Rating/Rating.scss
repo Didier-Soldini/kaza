@@ -1,0 +1,17 @@
+.rating {
+  padding: 15px 0px 25px 0px;
+  font-size: 24px;
+  &--grise {
+    color: rgba(227, 227, 227, 1);
+  }
+  & .fas {
+    margin: 5px;
+  }
+}
+
+@media (max-width: 725px) {
+ .rating {
+  font-size: 13px;
+  padding: 0px;
+ }
+}
