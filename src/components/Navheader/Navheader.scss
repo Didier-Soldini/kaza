@@ -1,0 +1,45 @@
+.navheader {
+  display: flex;
+  &__link--Accueil {
+    padding: 10px 0px 10px 70px;
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 24px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &__link--Apropos {
+    padding: 10px 0px 10px 70px;
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 24px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (max-width: 725px) {
+  .navheader {
+    &__link--Accueil {
+      font-size: 0px;
+      padding: 10px 10px;
+    }
+    &__link--Accueil::before {
+      content: "ACCUEIL";
+      font-size: 12px;
+      
+    }
+  
+   &__link--Apropos {
+      font-size: 0px;
+      padding: 10px 10px;
+    }
+    &__link--Apropos::before {
+      content: "A PROPOS";
+      font-size: 12px;
+    }
+  }
+}
+
