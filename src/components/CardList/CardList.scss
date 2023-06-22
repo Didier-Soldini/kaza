@@ -1,0 +1,20 @@
+.cardlist {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 50px 60px;
+  margin-bottom: 100px;
+  max-width: 1140px;
+  width: 100%;
+  border-radius: 25px;
+  padding: 56px 50px 0;
+}
+@media (max-width: 725px) {
+  .cardlist {
+    background-color: white;
+    gap: 0px;
+    padding: 20px;
+    margin-bottom: 0px;
+  }
+}
