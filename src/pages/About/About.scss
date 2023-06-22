@@ -1,1 +1,17 @@
-
+.about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 100px 10px;
+  &__collapses {
+  max-width: 992px;  }
+}
+@media (max-width: 725px) {
+  .about {
+    margin: 20px 20px 0px 20px;
+    &__collapses {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+}
