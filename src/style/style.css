@@ -212,7 +212,11 @@ header {
   font-weight: 500;
   font-size: 24px;
 }
-.navheader__link--Accueil:hover {
+.navheader__link--Accueil--active {
+  padding: 10px 0px 10px 70px;
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 24px;
   text-decoration: underline;
 }
 .navheader__link--Apropos {
@@ -221,7 +225,11 @@ header {
   font-weight: 500;
   font-size: 24px;
 }
-.navheader__link--Apropos:hover {
+.navheader__link--Apropos--active {
+  padding: 10px 0px 10px 70px;
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 24px;
   text-decoration: underline;
 }
 
@@ -474,6 +482,7 @@ header {
   padding: 2px 0 2px 0;
   background-color: rgb(255, 96, 96);
   align-items: center;
+  cursor: pointer;
 }
 .collapse__title {
   margin: 0;
@@ -485,6 +494,7 @@ header {
   background-color: rgb(255, 96, 96);
   margin-right: 17px;
   border: none;
+  cursor: pointer;
 }
 .collapse__togglebtn img {
   transition: 0.9s transform;
@@ -558,6 +568,7 @@ header {
   padding: 1.5px 0 1.5px 0;
   background-color: rgb(255, 96, 96);
   align-items: center;
+  cursor: pointer;
 }
 .collapseAbout__title {
   margin: 0;
@@ -569,6 +580,7 @@ header {
   background-color: rgb(255, 96, 96);
   margin-right: 17px;
   border: none;
+  cursor: pointer;
 }
 .collapseAbout__togglebtn img {
   transition: 0.9s transform;

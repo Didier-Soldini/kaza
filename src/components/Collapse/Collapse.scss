@@ -11,6 +11,7 @@
     padding: 2px 0 2px 0;
     background-color: rgba(255, 96, 96, 1);
     align-items: center;
+    cursor: pointer;
   }
   &__title {
     margin: 0;
@@ -22,11 +23,11 @@
     background-color: rgba(255, 96, 96, 1);
     margin-right: 17px;
     border: none;
+    cursor: pointer;
     & img {
       transition: 0.9s transform;
     }
     &--rotate {
-      
       transform: rotate(-180deg);
       transition: 0.9s transform;
     }
@@ -59,9 +60,9 @@
 @media (max-width: 725px) {
   .collapse {
     margin-bottom: 20px;
-     &__header {
-    border-radius: 5px;
-    padding: 0px;
+    &__header {
+      border-radius: 5px;
+      padding: 0px;
     }
     &__title {
       font-size: 13px;
