@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import flecheHaut from '../../assets/fleche--haut.svg'
 
-const Collapse = ({ title, children }) => {
+
+const Collapse = ({ title, children, className, headerClassName, titleClassName }) => {
   const [isCollapsed, setIsCollapsed] = useState(true)
 
   const toggleCollapse = () => {
@@ -9,9 +10,9 @@ const Collapse = ({ title, children }) => {
   }
 
   return (
-    <div className="collapse">
-      <div className="collapse__header" onClick={toggleCollapse}>
-        <h3 className="collapse__title">{title}</h3>
+    <div className={className}>
+      <div className={headerClassName} onClick={toggleCollapse}>
+        <h3 className={titleClassName}>{title}</h3>
         <button className="collapse__togglebtn">
           {isCollapsed ? (
             <img src={flecheHaut} alt="Collapse" />

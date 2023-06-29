@@ -46,8 +46,17 @@ const FicheLogement = () => {
             </div>
           </div>
           <div className="fichelogement__info__collapses">
-            <Collapse title="Description" children={description} />
             <Collapse
+              className={`collapse`}
+              headerClassName={`collapse__header`}
+              titleClassName={`collapse__title`}
+              title="Description"
+              children={description}
+            />
+            <Collapse
+              className={`collapse`}
+              headerClassName={`collapse__header`}
+              titleClassName={`collapse__title`}
               title="Equipements"
               children={equipments.map((equipment, index) => (
                 <p key={index}>{equipment}</p>
