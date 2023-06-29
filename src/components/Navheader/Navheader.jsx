@@ -10,7 +10,7 @@ const Navheader = () => {
             ? 'navheader__link--Accueil'
             : isActive
             ? 'navheader__link--Accueil--active'
-            : 'navheader__link--Apropos'
+            : 'navheader__link--Accueil'
         }
       >
         Accueil
@@ -22,7 +22,7 @@ const Navheader = () => {
             ? 'navheader__link--Apropos'
             : isActive
             ? 'navheader__link--Apropos--active'
-            : 'navheader__link--Accueil'
+            : 'navheader__link--Apropos'
         }
       >
         A Propos

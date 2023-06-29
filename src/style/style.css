@@ -239,7 +239,15 @@ header {
     padding: 10px 10px;
   }
   .navheader__link--Accueil::before {
-    content: "ACCUEIL";
+    content: "ACCEUIL";
+    font-size: 12px;
+  }
+  .navheader__link--Accueil--active {
+    font-size: 0px;
+    padding: 10px 10px;
+  }
+  .navheader__link--Accueil--active::before {
+    content: "ACCEUIL";
     font-size: 12px;
   }
   .navheader__link--Apropos {
@@ -247,6 +255,14 @@ header {
     padding: 10px 10px;
   }
   .navheader__link--Apropos::before {
+    content: "A PROPOS";
+    font-size: 12px;
+  }
+  .navheader__link--Apropos--active {
+    font-size: 0px;
+    padding: 10px 10px;
+  }
+  .navheader__link--Apropos--active::before {
     content: "A PROPOS";
     font-size: 12px;
   }
@@ -305,6 +321,7 @@ header {
   }
   .banner__img {
     height: 111px;
+    border-radius: 10px;
   }
   .banner {
     height: 111px;
