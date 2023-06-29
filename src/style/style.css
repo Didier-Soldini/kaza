@@ -563,6 +563,7 @@ header {
   }
   .collapse__content {
     font-size: 12px;
+    line-height: 20.67px;
   }
   .collapse__content--show {
     max-height: 200px;
