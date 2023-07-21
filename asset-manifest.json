@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Kaza/static/css/main.87612877.css",
-    "main.js": "/Kaza/static/js/main.f3cc44c5.js",
-    "static/media/banner--about.webp": "/Kaza/static/media/banner--about.789e424835bfa9340291.webp",
-    "static/media/banner--home.webp": "/Kaza/static/media/banner--home.61dda64f3b6033c68130.webp",
-    "index.html": "/Kaza/index.html",
-    "static/media/fleche--haut.svg": "/Kaza/static/media/fleche--haut.c57840cbdda6f64c6014de21776eb112.svg",
-    "static/media/fleche--droite.svg": "/Kaza/static/media/fleche--droite.224e07798ade6bda6e2572adcd9fc9c3.svg",
-    "main.87612877.css.map": "/Kaza/static/css/main.87612877.css.map",
-    "main.f3cc44c5.js.map": "/Kaza/static/js/main.f3cc44c5.js.map"
+    "main.css": "/static/css/main.87612877.css",
+    "main.js": "/static/js/main.2160eced.js",
+    "static/media/banner--about.webp": "/static/media/banner--about.789e424835bfa9340291.webp",
+    "static/media/banner--home.webp": "/static/media/banner--home.61dda64f3b6033c68130.webp",
+    "index.html": "/index.html",
+    "static/media/fleche--haut.svg": "/static/media/fleche--haut.c57840cbdda6f64c6014de21776eb112.svg",
+    "static/media/fleche--droite.svg": "/static/media/fleche--droite.224e07798ade6bda6e2572adcd9fc9c3.svg",
+    "main.87612877.css.map": "/static/css/main.87612877.css.map",
+    "main.2160eced.js.map": "/static/js/main.2160eced.js.map"
   },
   "entrypoints": [
     "static/css/main.87612877.css",
-    "static/js/main.f3cc44c5.js"
+    "static/js/main.2160eced.js"
   ]
 }
