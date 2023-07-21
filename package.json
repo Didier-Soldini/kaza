@@ -17,7 +17,7 @@
     "eject": "react-scripts eject",
     "sass": "sass --watch ./src/main.scss:./src/style/style.css",
     "prefix": "postcss ./src/style/style.css --use autoprefixer -d ./src/style/prefixed/",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
