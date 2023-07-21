@@ -2,6 +2,7 @@
   "name": "kasa",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Didier-Soldini.github.io/kaza",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -15,7 +16,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "sass": "sass --watch ./src/main.scss:./src/style/style.css",
-    "prefix": "postcss ./src/style/style.css --use autoprefixer -d ./src/style/prefixed/"
+    "prefix": "postcss ./src/style/style.css --use autoprefixer -d ./src/style/prefixed/",
+    "predeploy": "npm run build",
+     "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
@@ -36,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "css-loader": "^6.8.1"
+    "css-loader": "^6.8.1",
+    "gh-pages": "^5.0.0"
   }
 }
