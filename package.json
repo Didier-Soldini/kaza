@@ -2,7 +2,7 @@
   "name": "kasa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Didier-Soldini.github.io/Kaza",
+  "homepage": "https://Didier-Soldini.github.io",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
